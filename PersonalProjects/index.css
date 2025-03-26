@@ -1,0 +1,34 @@
+.cherry-bomb-one-regular {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+    
+  .sour-gummy-regular {
+  font-family: "Sour Gummy", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+ /* 
+ COLORS:
+    Pink #edafb8
+    Light Sand #f7e1d7
+    Light Sea Green #dedbd2
+    Sea Green #b0c4b1
+    Dark Green #4a5759
+  */
+
+
+html {
+    background-color: #4a5759 ;
+}
+
+h1 {
+    color: #dedbd2;
+    font-family: 
+
+}

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Block 10</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="grid-container">
+    <section>
+      <h2>Simple form</h2>
+      <!-- Create a simple form with a submit button that collects the users first and last name -->
+      <form action="./submission.html">
+        <h3>Enter your info</h3>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" />
+
+        <label for="lastName">Last Name</label>
+        <input type="text" name="lastName" id="lastName" />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+    <section>
+      <h2>Form for phone, email and password</h2>
+      <!-- Create a form with a submit button that collects phone, email and password -->
+
+      <form action="./submission.html">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="cellphone" />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          pattern="\w{3,16}"
+          name="password"
+        />
+
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+    <section>
+      <h2>Radio button - what is your favorite so far:</h2>
+      <!-- Create form with a submit button asking users which is their favorite languague: CSS, HTML or Javascript -->
+
+      <form action="./submission.html">
+        <label for="css">
+          <input type="radio" id="css" name="code" />
+          CSS
+        </label>
+
+        <label for="html">
+          <input type="radio" id="html" name="code" />
+          HTML
+        </label>
+
+        <label for="Javascript">
+          <input type="radio" id="Javascript" name="code" />
+          Javascript
+        </label>
+
+        <input type="submit" value="Submit Form" />
+      </form>
+    </section>
+    <section>
+      <h2>Checkbox:</h2>
+      <!-- Create a form with a submit button asking users to pick their favorite animal: dog, cat, or bird -->
+      <form>
+        <label for="dog">
+          <input type="checkbox" id="dog" />
+        </label>
+      </form>
+    </section>
+    <section>
+      <h2>Date:</h2>
+      <!-- Create a form with a submit button to select a start and end date -->
+      <form>
+        <label for="start">Start Date:</label>
+        <input
+          type="date"
+          value="2025-02-13"
+          min="2020-02-13"
+          max="2025-02-13"
+        />
+      </form>
+    </section>
+    <section>
+      <h2>Text Area:</h2>
+      <!-- Create a form with a submit button asking users for a review of your website -->
+      <form>
+        <textarea rows="5"> </textarea>
+      </form>
+    </section>
+    <section>
+      <h2>Dropdown:</h2>
+      <!-- Create a dropdown form that lets students select their favorite workshop so far:  -->
+      <form action="./submission.html">
+        <label for="pets">Choose a Pet:</label>
+        <select name="selectedPet" id="pets">
+          <option value=" " disabled hidden selected>Please Select One</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="dinosaur">Dinosaur</option>
+        </select>
+        <input type="submit" value="Submit" />
+      </form>
+    </section>
+  </div>
+  </body>
+</html>
